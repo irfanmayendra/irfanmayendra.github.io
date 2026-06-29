@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irfan Mayendra - Developer Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 60px 40px;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 60px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            color: #667eea;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+
+        .bio {
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 40px;
+            font-size: 1em;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .skill-tag {
+            background: #f0f0f0;
+            color: #667eea;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .link-btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            font-weight: 500;
+        }
+
+        .link-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        footer {
+            color: #999;
+            font-size: 0.9em;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-img">👨‍💻</div>
+        <h1>Irfan Mayendra</h1>
+        <p class="subtitle">Web Developer & Tech Enthusiast</p>
+        
+        <p class="bio">
+            Passionate about building innovative solutions and learning new technologies. 
+            Dedicated to creating meaningful projects that make a difference.
+        </p>
+
+        <div class="skills">
+            <div class="skill-tag">💻 Web Development</div>
+            <div class="skill-tag">🚀 Full Stack</div>
+            <div class="skill-tag">🎯 Problem Solving</div>
+            <div class="skill-tag">📱 Responsive Design</div>
+        </div>
+
+        <div class="links">
+            <a href="https://github.com/irfanmayendra" class="link-btn">GitHub</a>
+            <a href="mailto:irfanmayendraputra@gmail.com" class="link-btn">Email</a>
+        </div>
+
+        <footer>
+            <p>© 2026 Irfan Mayendra. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
