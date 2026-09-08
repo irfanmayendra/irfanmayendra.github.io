@@ -1,18 +1,16 @@
-# 👋 Hi, I'm Irfan Mayendra
+# Irfan Mayendra
 
-Welcome to my personal website and portfolio!
+AI Engineer & Full-Stack Developer
 
-## About Me
-I'm a passionate developer and tech enthusiast interested in building meaningful projects and creating solutions that make a difference.
+- 🤖 AI & Machine Learning
+- ☁️ Cloud Architecture
+- 💻 Full-Stack Development
+- 🔐 Security & Automation
 
-## What I Do
-- 💻 Web Development
-- 🚀 Building projects
-- 🎯 Learning new technologies
-
-## Get In Touch
-Feel free to explore my projects and reach out if you'd like to collaborate or chat about tech!
+**Website:** https://irfanmayendra.github.io  
+**GitHub:** https://github.com/irfanmayendra  
+**Email:** irfanmayendraputra@gmail.com
 
 ---
 
-*Last Updated: June 2026*
+*"Ship fast, learn faster."*
